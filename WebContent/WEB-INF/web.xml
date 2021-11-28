@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>Project</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>servlet.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PropertyServlet</servlet-name>
+		<servlet-class>servlet.PropertyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PropertyServlet</servlet-name>
+		<url-pattern>/addProperty</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SearchServlet</servlet-name>
+		<servlet-class>servlet.SearchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchServlet</servlet-name>
+		<url-pattern>/viewProperty</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePwServlet</servlet-name>
+		<servlet-class>servlet.ChangePwServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePwServlet</servlet-name>
+		<url-pattern>/changePw</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EmailServlet</servlet-name>
+		<servlet-class>servlet.EmailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmailServlet</servlet-name>
+		<url-pattern>/forgetPw</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminLoginServlet</servlet-name>
+		<servlet-class>servlet.AdminLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLoginServlet</servlet-name>
+		<url-pattern>/Admin_login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminPropertyServlet</servlet-name>
+		<servlet-class>servlet.AdminPropertyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminPropertyServlet</servlet-name>
+		<url-pattern>/propertyList</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminUserServlet</servlet-name>
+		<servlet-class>servlet.AdminUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminUserServlet</servlet-name>
+		<url-pattern>/userList</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditPropertyServlet</servlet-name>
+		<servlet-class>servlet.EditPropertyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditPropertyServlet</servlet-name>
+		<url-pattern>/editProperty</url-pattern>
+	</servlet-mapping>
+</web-app>
