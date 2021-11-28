@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.Search {
+	background-color: #000000;
+	border: none;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	height: 40px;
+	width: 100px;
+}
+
+.Find {
+	background-color: #000000;
+	border: none;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	position: absolute;
+	left: 560px;
+	top: 460px;
+	height: 70px;
+	width: 150px;
+}

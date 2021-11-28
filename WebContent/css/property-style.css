@@ -1,0 +1,205 @@
+@charset "UTF-8";
+.form-group {
+	margin-bottom: 15px
+}
+.section-padding {
+    padding: 80px 0;
+}
+.subheader{
+    background: url(../images/about-us/banner-1920x265.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.subheader:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.subheader .breadcrumb-wrapper .page-title h1,
+.subheader .breadcrumb-wrapper .custom li a{
+    color: #ffffff;
+}
+.breadcrumb-wrapper .page-title{
+    position: relative;
+    padding: 10px 0;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+.breadcrumb-wrapper .page-title:after{
+    content: "";
+    height: calc(100% - 6px);
+    width: 5px;
+    background-color: #800000;
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+.breadcrumb-wrapper .page-title h1{
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 700;
+    position: relative;
+    margin: 0;
+}
+.breadcrumb-wrapper .breadcrumb{
+    background: transparent;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+.breadcrumb-wrapper .breadcrumb li{
+    font-size: 15px;
+    color: #111111;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.breadcrumb-wrapper .breadcrumb li a:after{
+    color: #800000;
+    font-size: 14px;
+    margin: 0 5px;
+}
+.breadcrumb-wrapper .breadcrumb li.active{
+    color: #800000;
+}
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul li,
+ol li {
+    margin: 0px;
+    position: relative;
+}
+ul.custom{
+    list-style: none;
+    padding: 0;
+}
+html body .bg-light {
+	background-color: #f5faff !important
+}
+.gray-simple {
+	background: #f3f7fd
+}
+.form-control {
+	height: 56px;
+	font-size: 16px;
+	box-shadow: none;
+	padding: .5rem .75rem;
+	border: 1px solid #e0ecf5;
+	background-clip: initial
+}
+
+.submit-form .form-control, .submit-page .form-control, .form-submit .form-control
+	{
+	background: #f9fafc;
+	border: 1px solid #ebedf5;
+	border-radius: 3px;
+	color: black
+}
+
+.form-row>.col, .form-row>[class*=col-] {
+	padding-right: 15px;
+	padding-left: 15px
+}
+
+.form-control.simple {
+	background: #f2f3f5;
+	border-color: #f2f3f5;
+	border-radius: 4px
+}
+.checkbox-custom, .radio-custom {
+	opacity: 0;
+	position: absolute
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom,
+	.radio-custom-label {
+	display: flex;
+	align-items: center;
+	margin: 5px;
+	cursor: pointer
+}
+
+.checkbox-custom-label, .radio-custom-label {
+	position: relative
+}
+
+.checkbox-custom+.checkbox-custom-label:before {
+	content: "";
+	background: #fff;
+	border: 2px solid #dae3ec;
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	border-radius: 2px;
+	padding: 2px;
+	margin-right: 10px;
+	text-align: center
+}
+
+.radio-custom+.radio-custom-label:before {
+	content: '';
+	background: #fff;
+	border: 2px solid #dae3ec;
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	padding: 2px;
+	margin-right: 10px;
+	text-align: center
+}
+
+.checkbox-custom:checked+.checkbox-custom-label:before {
+	content: "\e64c";
+	font-family: 'Themify';
+	background: #140c40 !important;
+	border-radius: 2px;
+	box-shadow: none;
+	color: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 8px
+}
+
+[type="radio"]:checked+label:after, [type="radio"]:not(:checked)+label:after
+	{
+	content: "\e64c";
+	font-family: 'Themify';
+	width: 20px;
+	height: 20px;
+	background: #140c40 !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 100%;
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease;
+	color: #fff;
+	font-size: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.radio-custom+.radio-custom-label:before {
+	border-radius: 50%
+}
+
+.radio-custom:checked+.radio-custom-label:before {
+	background: #140c40 !important;
+	border: 1px solid #140c40;
+	box-shadow: inset 0 0 0 4px #140c40
+}

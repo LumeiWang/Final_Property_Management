@@ -1,0 +1,44 @@
+.proDets {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 102;
+    margin-left: -370px;
+    margin-top: -280px;
+    padding: 30px;
+    width: 740px;
+    background: #fff;
+    display: none;
+}
+.proCon .proImg {
+    width: 360px;
+    overflow: hidden !important;
+}
+
+.proCon .proImg img {
+    display: block;
+    overflow: hidden;
+}
+
+.smallImg {
+    margin-top: 20px;
+}
+
+.smallImg img {
+    float: left;
+}
+
+.proIntro .smallImg p {
+    padding: 2px;
+    margin-right: 20px;
+    border: 1px solid #fff;
+}
+
+.proIntro .smallImg img {
+    width: 45px;
+}
+
+.proImg .smallImg img {
+    width: 50px;
+    margin-right: 20px;
+}
