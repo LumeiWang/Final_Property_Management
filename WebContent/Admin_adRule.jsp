@@ -30,15 +30,15 @@
 			</tr>
 			<tr>
 				<td width="150" height="30">Less Than 1 Week<span class="TableRow2"></span></td>
-				<td style="text-align: left">£30 per day</td>
+				<td style="text-align: left">£50 per day</td>
 			</tr>
 			<tr>
 				<td width="150" height="30">1 to 4 Weeks<span class="TableRow2"></span></td>
-				<td style="text-align: left">£25 per day</td>
+				<td style="text-align: left">£45 per day</td>
 			</tr>
 			<tr>
 				<td width="150" height="30">More Than 1 month<span class="TableRow2"></span></td>
-				<td style="text-align: left">£20 per day</td>
+				<td style="text-align: left">£35 per day</td>
 			</tr>
 		</table>
 	</div>
